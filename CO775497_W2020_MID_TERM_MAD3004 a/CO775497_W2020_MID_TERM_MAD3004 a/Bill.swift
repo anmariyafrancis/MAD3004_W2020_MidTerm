@@ -10,9 +10,9 @@ import Foundation
 
 class Bill
 {
-    var billId:String?
-    var billDate:Date
-    var billType:String?
+    var billId:String
+    var billDate:Date?
+    var billType:String
     var totalBillAmount:String?
     
     init(billId:String,billDate:Date,billType:String,totalBillAmount:String)
@@ -21,5 +21,11 @@ class Bill
         self.billDate=billDate
         self.billType=billType
         self.totalBillAmount=totalBillAmount
+    }
+    
+    init(billId:String,billType:String)
+    {
+        self.billId=billId
+        self.billType=billType
     }
 }
