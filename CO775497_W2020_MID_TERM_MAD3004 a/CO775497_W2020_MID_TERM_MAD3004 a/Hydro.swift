@@ -13,7 +13,7 @@ class Hydro: Bill
     var agencyName:String
     var unitConsumed:Double
     
-    init(billId: Int,billType: String,agencyName:String,unitConsumed:Double)
+    init(billId: Int, billType: String,agencyName:String,unitConsumed:Double)
     {
         self.agencyName=agencyName
         self.unitConsumed=unitConsumed

@@ -11,10 +11,13 @@ import Foundation
 class Bill:IDisplay
 {
     var billId:Int
-    var billDate:Date?
+    var billDate = Date()
     var billType:String
     var totalBillAmount:Double?
     
+    init()
+    {
+    }
     init(billId:Int,billDate:Date,billType:String,totalBillAmount:Double)
     {
         self.billId=billId
