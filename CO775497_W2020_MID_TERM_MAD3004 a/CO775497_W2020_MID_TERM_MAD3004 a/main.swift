@@ -8,8 +8,6 @@
 
 import Foundation
 
-var b1=Bill()
 var h1=Hydro(billId: 1, billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 29)
-b1.display()
 h1.display()
 
