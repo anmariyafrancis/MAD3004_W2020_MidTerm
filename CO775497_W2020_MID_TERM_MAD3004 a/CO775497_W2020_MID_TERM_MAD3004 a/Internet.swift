@@ -21,6 +21,7 @@ class Internet: Bill
     }
     override func display()
     {
+        super.display()
         print("Provider Name   :\(self.providerName)")
         print("Internet Usage :\(self.internetGBUsed)")
     }

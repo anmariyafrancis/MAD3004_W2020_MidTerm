@@ -21,6 +21,7 @@ class Hydro: Bill
     }
     override func display()
     {
+        super.display()
         print("Agency Name   :\(self.agencyName)")
         print("Unit Consumed :\(self.unitConsumed)")
     }
