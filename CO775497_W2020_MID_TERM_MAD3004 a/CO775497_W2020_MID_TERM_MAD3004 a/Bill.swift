@@ -37,5 +37,6 @@ class Bill:IDisplay
         print("Bill Date         :\(self.billDate)")
         print("Bill Type         :\(self.billType)")
         print("Total Bill Amount :\(self.totalBillAmount)")
+        
     }
 }

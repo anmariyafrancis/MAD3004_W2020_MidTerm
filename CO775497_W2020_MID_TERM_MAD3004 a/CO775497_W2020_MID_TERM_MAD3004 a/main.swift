@@ -8,9 +8,8 @@
 
 import Foundation
 
-var h1=Hydro(billId: 1, billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 29)
-var i1=Internet(billId: 1, billType: "Internet", providerName: "Rogers", internetGBUsed: 500)
+//customer 1
+var c1h1=Hydro(billId: 1, billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 29)
+var c1i1=Internet(billId: 1, billType: "Internet", providerName: "Rogers", internetGBUsed: 500)
 
-h1.display()
-i1.display()
 

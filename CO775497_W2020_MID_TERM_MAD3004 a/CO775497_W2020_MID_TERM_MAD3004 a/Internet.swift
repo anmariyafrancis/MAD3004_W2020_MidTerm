@@ -24,6 +24,7 @@ class Internet: Bill
         super.display()
         print("Provider Name   :\(self.providerName)")
         print("Internet Usage :\(self.internetGBUsed)")
+        print("***********************************")
     }
 }
 
