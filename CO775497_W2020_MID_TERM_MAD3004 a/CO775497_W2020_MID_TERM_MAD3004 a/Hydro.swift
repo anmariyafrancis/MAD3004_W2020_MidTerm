@@ -19,4 +19,9 @@ class Hydro: Bill
         self.unitConsumed=unitConsumed
         super.init(billId: billId, billType: billType)
     }
+    override func display()
+    {
+        print("Agency Name   :\(self.agencyName)")
+        print("Unit Consumed :\(self.unitConsumed)")
+    }
 }
