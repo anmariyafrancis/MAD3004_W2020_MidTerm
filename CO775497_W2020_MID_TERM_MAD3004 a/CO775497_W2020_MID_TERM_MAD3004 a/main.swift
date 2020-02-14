@@ -12,4 +12,5 @@ import Foundation
 var c1h1=Hydro(billId: 1, billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 29)
 var c1i1=Internet(billId: 1, billType: "Internet", providerName: "Rogers", internetGBUsed: 500)
 
-
+//customer 2
+var c2h1=Hydro(billId: 1, billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 29)
