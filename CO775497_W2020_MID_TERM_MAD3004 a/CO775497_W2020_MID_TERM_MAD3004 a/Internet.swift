@@ -20,5 +20,11 @@ class Internet: Bill
         self.internetGBUsed=internetGBUsed
         super.init(billId: billId, billType: billType)
     }
+    
+    override func display()
+    {
+        print("Provider Name   :\(self.providerName)")
+        print("Internet Usage :\(self.internetGBUsed)")
+    }
 }
 
