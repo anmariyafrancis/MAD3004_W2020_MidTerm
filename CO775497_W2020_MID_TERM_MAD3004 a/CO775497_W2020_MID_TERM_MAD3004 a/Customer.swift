@@ -24,4 +24,11 @@ class Customer
         self.emailId=emailId
         self.allCustomerBills=allCustomerBills
     }
+    
+    func display()
+    {
+        print("Customer Id        :\(self.customerId)")
+        print("Customer Full Name :")
+        print("Customer Email ID  :\(self.emailId)")
+    }
 }
