@@ -14,16 +14,16 @@ class Mobile: Bill
     var planName:String
     var mobileNumber:String
     var internetGBUsed:String
-    var minuteUsed:String
+    var minuteUsed:Int
     
-    init(billId: String,billType:String, manufacturerName:String, planName:String, mobileNumber:String, internetGBUsed:String, minuteUsed:String)
+    init(billId: Int,billType:String, manufacturerName:String, planName:String, mobileNumber:String, internetGBUsed:String, minuteUsed:Int)
     {
         self.manufacturerName=manufacturerName
         self.planName=planName
         self.mobileNumber=mobileNumber
         self.internetGBUsed=internetGBUsed
         self.minuteUsed=minuteUsed
-        super.init(billId: billId, billType: billType)
+        super.init(billId.billId,billType:billType)
     }
     
     override func display()

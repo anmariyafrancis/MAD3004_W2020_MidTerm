@@ -11,9 +11,9 @@ import Foundation
 class Hydro: Bill
 {
     var agencyName:String
-    var unitConsumed:String
+    var unitConsumed:Double
     
-    init(billId: String,billType: String,agencyName:String,unitConsumed:String)
+    init(billId: Int,billType: String,agencyName:String,unitConsumed:Double)
     {
         self.agencyName=agencyName
         self.unitConsumed=unitConsumed
