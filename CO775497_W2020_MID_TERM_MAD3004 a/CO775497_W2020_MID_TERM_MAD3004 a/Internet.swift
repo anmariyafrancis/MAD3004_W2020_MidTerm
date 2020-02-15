@@ -17,7 +17,7 @@ class Internet: Bill
     {
         self.providerName=providerName
         self.internetGBUsed=internetGBUsed
-        super.init(billId: billId, billType: billType)
+        super.init(billId: billId, billDate: billDate, billType: billType)
     }
     override func display()
     {
