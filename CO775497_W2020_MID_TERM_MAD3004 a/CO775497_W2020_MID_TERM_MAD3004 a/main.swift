@@ -21,5 +21,9 @@ var c2m2=Mobile(billId: 1, billType: "Mobile", manufacturerName: "Apple Inc. iPh
 c1h1.display()
 c1i1.display()
 
+c2h1.display()
+c2i1.display()
+c2m1.display()
+c2m2.display()
 
 
