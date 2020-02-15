@@ -20,6 +20,8 @@ var c2i1=Internet(billId: 1, billType: "Internet", providerName: "Rogers", inter
 var c2m1=Mobile(billId: 1, billType: "Mobile", manufacturerName: "Galaxy Samsung Inc.", planName:"Prepaid Talk+Text Plan", mobileNumber: 11234567890, internetGBUsed: 5, minuteUsed: 356)
 var c2m2=Mobile(billId: 1, billType: "Mobile", manufacturerName: "Apple Inc. iPhone X MAX+", planName: "LTE+3G 9.5GB Promo Plan", mobileNumber: 90123456789, internetGBUsed: 4, minuteUsed: 230)
 
+//customer 3
+var c3=Customer(customerId: "3", firstName: "Jennifer", lastName: "Jis", emailId: "mno@gmail.com")
 
 c1.display()
 c1h1.display()
@@ -30,5 +32,7 @@ c2h1.display()
 c2i1.display()
 c2m1.display()
 c2m2.display()
+
+c3.display()
 
 

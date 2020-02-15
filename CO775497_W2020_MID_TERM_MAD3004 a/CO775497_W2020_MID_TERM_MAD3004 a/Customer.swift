@@ -17,12 +17,13 @@ class Customer
     var allCustomerBills:[String:String]?
     var fullName:String
     {
-        return "\(firstName)\(lastName)"
+        return "\(firstName) \(lastName)"
     }
     
-    //var customerCode:String = ""
+    var customerCode:String = ""
     var customerId:String
     /*{
+        
         set(id)
         {
             customerCode = "C000\(id)"
@@ -32,7 +33,6 @@ class Customer
             return customerCode
         }
     }*/
-    
     init(customerId:String,firstName:String,lastName:String,emailId:String)
     {
         self.customerId=customerId
