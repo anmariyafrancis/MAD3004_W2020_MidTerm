@@ -14,7 +14,7 @@ class Customer
     var firstName:String
     var lastName:String
     var emailId:String
-    var allCustomerBills:[String:String]
+    var allCustomerBills:[String:String]?
     var fullName:String
     {
         return "\(firstName)\(lastName)"
@@ -33,13 +33,13 @@ class Customer
         }
     }*/
     
-    init(customerId:String,firstName:String,lastName:String,emailId:String,allCustomerBills:[String:String])
+    init(customerId:String,firstName:String,lastName:String,emailId:String)
     {
         self.customerId=customerId
         self.firstName=firstName
         self.lastName=lastName
         self.emailId=emailId
-        self.allCustomerBills=allCustomerBills
+       // self.allCustomerBills=allCustomerBills
     }
     
     func display()
