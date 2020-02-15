@@ -23,9 +23,10 @@ class Bill:IDisplay
         self.totalBillAmount=totalBillAmount
     }
     
-    init(billId:Int,billType:String)
+    init(billId:Int,billDate:Date,billType:String)
     {
         self.billId=billId
+        self.billDate=billDate
         self.billType=billType
     }
     

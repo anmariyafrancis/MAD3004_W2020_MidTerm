@@ -10,36 +10,31 @@ import Foundation
 
 class Customer
 {
-    
+    var customerId:String
     var firstName:String
     var lastName:String
     var emailId:String
-    var allCustomerBills:[String:String]?
+    var allCustomerBills:[String:Bill]?
     var fullName:String
     {
         return "\(firstName) \(lastName)"
     }
     
-    var customerCode:String = ""
-    var customerId:String
-    /*{
-        
-        set(id)
-        {
-            customerCode = "C000\(id)"
-        }
-        get
-        {
-            return customerCode
-        }
-    }*/
+    init(customerId:String,firstName:String,lastName:String,emailId:String, allCustomerBills:[String:Bill])
+    {
+        self.customerId=customerId
+        self.firstName=firstName
+        self.lastName=lastName
+        self.emailId=emailId
+       self.allCustomerBills=allCustomerBills
+    }
+    
     init(customerId:String,firstName:String,lastName:String,emailId:String)
     {
         self.customerId=customerId
         self.firstName=firstName
         self.lastName=lastName
         self.emailId=emailId
-       // self.allCustomerBills=allCustomerBills
     }
     
     func display()
