@@ -23,16 +23,43 @@ var c2m2=Mobile(billId: 1, billDate: <#Date#>, billType: "Mobile", manufacturerN
 //customer 3
 var c3=Customer(customerId: "3", firstName: "Jennifer", lastName: "Jis", emailId: "mno@gmail.com")
 
-c1.display()
+ var customers=[Customer]()
+customers.append(c1)
+customers.append(c2)
+customers.append(c3)
+
+print("*******All Customers*********")
+for i in customers
+{
+    i.display()
+}
 c1h1.display()
 c1i1.display()
 
-c2.display()
+
 c2h1.display()
 c2i1.display()
 c2m1.display()
 c2m2.display()
 
-c3.display()
+
+
+func getCustomerBy(customerId:Int) -> Customer
+{
+     for c in customers
+    {
+        if(customerId==c.customerId)
+        {
+            print("********Customer Details********")
+        }
+        else
+        {
+            print("Customer Not Found...")
+        }
+    }
+}
+
+let c5=getCustomerBy(customerId: 5)
+c5.display()
 
 
