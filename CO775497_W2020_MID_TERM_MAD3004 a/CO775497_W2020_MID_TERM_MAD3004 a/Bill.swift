@@ -13,7 +13,7 @@ class Bill:IDisplay
     var billId:Int
     var billDate = Date()
     var billType:String
-    var totalBillAmount:Double?
+    var totalBillAmount:Double=0.0
     
     init(billId:Int,billDate:Date,billType:String,totalBillAmount:Double)
     {
@@ -34,10 +34,15 @@ class Bill:IDisplay
     {
         print("----Bill Information----")
         print("***********************************")
-        print("Bill Id           :\(self.billId)")
-        print("Bill Date         :\(self.billDate)")
-        print("Bill Type         :\(self.billType)")
-        print("Total Bill Amount :\(self.totalBillAmount)")
-        
-    }
+        if let b=self.billDate
+        {
+            print("Bill Id           :\(self.billId)")
+            print("Bill Date         :\(self.billDate)")
+            print("Bill Type         :\(self.billType)")
+            print("Total Bill Amount :\(self.totalBillAmount)")
+        }
+        else
+        {
+            print("NOTE : This Customer has no bills")
+        }
 }

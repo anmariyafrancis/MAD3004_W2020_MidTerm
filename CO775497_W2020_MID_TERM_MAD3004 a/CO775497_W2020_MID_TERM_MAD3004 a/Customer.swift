@@ -36,7 +36,22 @@ class Customer
         self.lastName=lastName
         self.emailId=emailId
     }
-    
+     
+    func getCustomerById(customerId.Int)
+    {
+        for c in Customer
+        {
+            if(customerId==c.customerId)
+            {
+                print("********Customer Details********")
+            }
+            else
+            {
+                print("Customer Not Found...")
+            }
+        }
+        
+    }
     func display()
     {
         print("Customer Id        :\(self.customerId)")
