@@ -11,9 +11,9 @@ import Foundation
 class Internet: Bill
 {
     var providerName:String
-    var internetGBUsed:Int
+    var internetGBUsed:Double
     
-    init(billId: Int, billDate:Date,billType: String,providerName:String,internetGBUsed:Int)
+    init(billId: Int, billDate:Date,billType: String,providerName:String,internetGBUsed:Double)
     {
         self.providerName=providerName
         self.internetGBUsed=internetGBUsed
@@ -23,7 +23,7 @@ class Internet: Bill
     {
         super.display()
         print("Provider Name   :\(self.providerName)")
-        print("Internet Usage :\(self.internetGBUsed)")
+        print("Internet Usage :\(self.internetGBUsed.GBTotal())")
         print("***********************************")
     }
 }
