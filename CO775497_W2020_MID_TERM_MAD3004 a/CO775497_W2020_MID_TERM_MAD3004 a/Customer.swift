@@ -14,7 +14,7 @@ class Customer
     var firstName:String
     var lastName:String
     var emailId:String
-    var allCustomerBills:[String:Bill]?
+    var allCustomerBills = [String:Bill]()
     var fullName:String
     {
         return "\(firstName) \(lastName)"
