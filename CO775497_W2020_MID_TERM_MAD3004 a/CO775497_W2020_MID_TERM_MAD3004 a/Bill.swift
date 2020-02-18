@@ -34,15 +34,9 @@ class Bill:IDisplay
     {
         print("----Bill Information----")
         print("***********************************")
-        if let b=self.billDate
-        {
             print("Bill Id           :\(self.billId)")
             print("Bill Date         :\(self.billDate)")
             print("Bill Type         :\(self.billType)")
             print("Total Bill Amount :\(self.totalBillAmount)")
-        }
-        else
-        {
-            print("NOTE : This Customer has no bills")
-        }
+    }
 }
