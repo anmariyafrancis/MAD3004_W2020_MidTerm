@@ -41,7 +41,7 @@ c2m2.display()*/
 
 
 
-func getCustomerBy(customerId:Int) -> Customer?
+/*func getCustomerBy(customerId:Int) -> Customer?
 {
      for c in customers
     {
@@ -52,13 +52,11 @@ func getCustomerBy(customerId:Int) -> Customer?
         else
         {
             print("Customer Not Found...")
-            return nil
         }
     }
-    
 }
 
 let c5=getCustomerBy(customerId: 5)
-c5?.display()
+c5?.display()*/
 
 

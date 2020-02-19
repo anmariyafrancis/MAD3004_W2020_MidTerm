@@ -15,9 +15,8 @@ class Internet: Bill
     
     init(billId: Int, billDate: Date, billType: String, providerName:String,internetGBUsed:Double)
     {
-        self.billId=billId
-        self.billDate=billDate
-        self.billType=billType
+        self.providerName=providerName
+        self.internetGBUsed=internetGBUsed
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     override func display()
