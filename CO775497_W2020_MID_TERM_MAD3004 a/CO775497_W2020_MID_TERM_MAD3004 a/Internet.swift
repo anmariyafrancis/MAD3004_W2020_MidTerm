@@ -13,10 +13,11 @@ class Internet: Bill
     var providerName:String
     var internetGBUsed:Double
     
-    init(billId: Int, billDate:String,billType: String,providerName:String,internetGBUsed:Double)
+    init(billId: Int, billDate: String, billType: String, providerName:String,internetGBUsed:Double)
     {
-        self.providerName=providerName
-        self.internetGBUsed=internetGBUsed
+        self.billId=billId
+        self.billDate=billDate
+        self.billType=billType
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     override func display()
