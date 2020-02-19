@@ -15,20 +15,19 @@ class Bill:IDisplay
     var billType:String
     var totalBillAmount:Double=0.0
     
-    init(billId:Int,billDate:String,billType:String,totalBillAmount:Double)
-    {
-        self.billId=billId
-        self.billDate=billDate
-        self.billType=billType
-        self.totalBillAmount=totalBillAmount
-    }
-    
     init(billId:Int,billDate:String,billType:String)
     {
         self.billId=billId
         self.billDate=billDate
         self.billType=billType
     }
+    
+    /*init(billId:Int,billDate:String,billType:String)
+    {
+        self.billId=billId
+        self.billDate=billDate
+        self.billType=billType
+    }*/
     
     func display()
     {
