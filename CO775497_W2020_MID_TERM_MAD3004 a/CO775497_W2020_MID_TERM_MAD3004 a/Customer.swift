@@ -41,6 +41,6 @@ class Customer
     {
         print("Customer Id        :\(self.customerId)")
         print("Customer Full Name :\(self.fullName)")
-        print("Customer Email ID  :\(self.emailId)")
+        print("Customer Email ID  :\(self.emailId.isValidEmail())")
     }
 }
