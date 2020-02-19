@@ -38,10 +38,10 @@ class Customer
         self.emailId=emailId
     }
     
-    func addBill(bill:Bill,billId:String)
+    /*func addBill(bill:Bill,billId:String)
     {
-        allCustomerBills.updateBill(bill,forKey:billId)
-    }
+        //allCustomerBills.updateBill(bill,forKey:billId)
+    }*/
     
     func calculateTotalBill()
     {
