@@ -10,16 +10,11 @@ import Foundation
 
 //customer 1
 var c1=Customer(customerId: 1, firstName: "Anmariya", lastName: "Francis", emailId: "xyz@gmail.com")
-var c1h1=Hydro(billId: 1, billDate: "2019-06-09", billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 500.5)
-var c1i1=Internet(billId: 1, billDate: "2019-12-12", billType: "internet", providerName: "rogers", internetGBUsed: 340.2)
+var c1h1=Hydro(billId: 1, billDate: Date(), billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 3400.5)
 
 //customer 2
 var c2=Customer(customerId: 2, firstName: "Aldin", lastName: "Joseph", emailId: "abc@gmail.com")
-var c2h1=Hydro(billId: 1, billDate: Date, billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 29)
-var c2i1=Internet(billId: 1, billDate: <#Date#>, billType: "Internet", providerName: "Rogers", internetGBUsed: 500.3)
-var c2m1=Mobile(billId: 1, billDate: <#Date#>, billType: "Mobile", manufacturerName: "Galaxy Samsung Inc.", planName:"Prepaid Talk+Text Plan", mobileNumber: 11234567890, internetGBUsed: 5, minuteUsed: 356)
-var c2m2=Mobile(billId: 1, billDate: <#Date#>, billType: "Mobile", manufacturerName: "Apple Inc. iPhone X MAX+", planName: "LTE+3G 9.5GB Promo Plan", mobileNumber: 90123456789, internetGBUsed: 4, minuteUsed: 230)
-
+var c1h2=Hydro(billId: 1, billDate: Date(), billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 500.5)
 //customer 3
 var c3=Customer(customerId: 3, firstName: "Jennifer", lastName: "Jis", emailId: "mno@gmail.com")
 
