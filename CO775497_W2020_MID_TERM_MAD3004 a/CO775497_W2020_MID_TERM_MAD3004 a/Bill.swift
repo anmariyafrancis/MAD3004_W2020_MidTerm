@@ -11,11 +11,11 @@ import Foundation
 class Bill:IDisplay
 {
     var billId:Int
-    var billDate:String
+    var billDate:Date?
     var billType:String
     var totalBillAmount:Double=0.0
     
-    init(billId:Int,billDate:String,billType:String)
+    init(billId:Int,billDate:Date,billType:String)
     {
         self.billId=billId
         self.billDate=billDate
