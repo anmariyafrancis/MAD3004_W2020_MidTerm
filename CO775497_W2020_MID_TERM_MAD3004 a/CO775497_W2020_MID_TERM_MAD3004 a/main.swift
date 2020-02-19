@@ -15,7 +15,7 @@ var c1i1=Internet(billId: 1, billDate: Date(), billType: "Internet", providerNam
 
 //customer 2
 var c2=Customer(customerId: 2, firstName: "Aldin", lastName: "Joseph", emailId: "abc@gmail.com")
-var c2h2=Hydro(billId: 1, billDate: Date(), billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 500.5)
+var c2h1=Hydro(billId: 1, billDate: Date(), billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 500.5)
 var c2i1=Internet(billId: 1, billDate: Date(), billType: "Internet", providerName: "Rogers", internetGBUsed: 150.5)
 //customer 3
 var c3=Customer(customerId: 3, firstName: "Jennifer", lastName: "Jis", emailId: "mno@gmail.com")
@@ -36,8 +36,8 @@ c1i1.display()
 
 c2h1.display()
 c2i1.display()
-c2m1.display()
-c2m2.display()
+/*c2m1.display()
+c2m2.display()*/
 
 
 
