@@ -11,7 +11,7 @@ import Foundation
 //customer 1
 var c1=Customer(customerId: 1, firstName: "Anmariya", lastName: "Francis", emailId: "xyz@gmail.com")
 var c1h1=Hydro(billId: 1, billDate: "2019-06-09", billType: "Hydro", agencyName: "Planet Energy", unitConsumed: 500.5)
-var c1i1=Internet(billId: 1, billDate: "2019-07-19", billType: "Internet", providerName: "Rogers", internetGBUsed: 500.5)
+var c1i1=Internet(billId: 1, billDate: "2019-12-12", billType: "Internet", providerName: "Rogers", internetGBUsed: 355.3)
 
 //customer 2
 var c2=Customer(customerId: 2, firstName: "Aldin", lastName: "Joseph", emailId: "abc@gmail.com")

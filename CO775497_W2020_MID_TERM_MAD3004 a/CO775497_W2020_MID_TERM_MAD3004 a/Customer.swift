@@ -15,6 +15,7 @@ class Customer
     var lastName:String
     var emailId:String
     var allCustomerBills = [String:Bill]()
+    var totalBillToPay:Double=0.0
     var fullName:String
     {
         return "\(firstName) \(lastName)"
@@ -35,6 +36,19 @@ class Customer
         self.firstName=firstName
         self.lastName=lastName
         self.emailId=emailId
+    }
+    
+    func addBill(bill:Bill,billId:String)
+    {
+        allCustomerBills.updateBill(bill,forKey:billId)
+    }
+    
+    func calculateTotalBill()
+    {
+        for i in allCustomerBills
+        {
+            totalBillToPay=totalBillToPay+i.value.totalBillAmount
+        }
     }
     
     func display()
